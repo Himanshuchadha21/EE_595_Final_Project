@@ -76,5 +76,6 @@ The project follows a standard machine learning pipeline:
 pip install numpy pandas matplotlib seaborn scikit-learn
 
 ## Launch the notebook
+jupyter notebook EE_595_Final_Project_20029978.ipynb
 
 
