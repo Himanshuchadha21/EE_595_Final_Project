@@ -15,6 +15,8 @@ The goal of this project is to apply machine learning techniques in a structured
 - The dataset contains structured tabular data with both numerical and categorical features.
 - Preprocessing steps include handling missing values, encoding categorical variables, and feature scaling where necessary.
 - Exploratory analysis reveals meaningful relationships between predictors and the target variable, guiding model selection.
+- Example columns: `age`, `sex`, `bmi`, `children`, `smoker`, `region`, `charges` (target)
+
 
 > Note: The dataset is either publicly available.
 
@@ -75,7 +77,17 @@ The project follows a standard machine learning pipeline:
 ## Install dependencies
 pip install numpy pandas matplotlib seaborn scikit-learn
 
+---
+
 ## Launch the notebook
 jupyter notebook EE_595_Final_Project_20029978.ipynb
+
+---
+
+## Environment
+
+- Python 3.10+ recommended
+- Core libs: numpy, pandas, scikit-learn, seaborn, matplotlib
+- Optional: xgboost, lightgbm, shap
 
 
